@@ -52,7 +52,7 @@ function charts(){
      window.location.href=("Chart.html");
 }
 function Dash(){
-    window.location.href=("------MaseleMarkets0.html");
+    window.location.href=("index.html");
 }
 function Cashier(){
     window.location.href=("Cashier.html");
