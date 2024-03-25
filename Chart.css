@@ -1,0 +1,129 @@
+body
+{
+   background: url(https://res.cloudinary.com/muhammederdem/image/upload/v1536405234/starwars/death_star.jpg) ;
+  
+}
+
+
+
+/******************************************************************************/
+.labelsTop{
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+
+
+.ni {
+  position: relative;
+  margin-left: 5%;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 8px 20px;
+  margin-right: 6px;
+  border-radius: .8rem;
+  min-width: 124px;
+  text-align: center;
+  background: #00ee00;
+  border: 0.5px solid rgba(22, 179, 124, 0.2);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.ni:before {
+  color: #4EBE96;
+}
+
+.ni:active {
+  transform: scale(0.94);
+}
+
+
+
+
+.ni2 {
+  position: relative;
+  margin-left: 5%;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 8px 20px;
+  margin-right: 6px;
+  border-radius: .8rem;
+  min-width: 124px;
+  text-align: center;
+  background: #ff0000;
+  border: 0.5px solid rgba(22, 179, 124, 0.2);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.ni2:before {
+  color: #4EBE96;
+}
+
+.ni2:active {
+  transform: scale(0.94);
+}
+
+
+
+
+
+
+#ni {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#ni:checked + .ni {
+  background: rgba(216, 79, 104, 0.1);
+  border-color: rgba(216, 79, 104, 0.2);
+}
+
+#ni:checked + .ni:before {
+  color: #D84F68;
+}
+
+
+
+
+
+#ni2 {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#ni2:checked + .ni2 {
+  background: rgba(216, 79, 104, 0.1);
+  border-color: rgba(216, 79, 104, 0.2);
+}
+
+#ni2:checked + .ni2:before {
+  color: #D84F68;
+}
+
+
+
+
+/***************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
