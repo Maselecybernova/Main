@@ -1,0 +1,232 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300&family=VT323&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Oxanium:wght@300&family=VT323&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Marvel&family=Oxanium:wght@300&family=VT323&display=swap');
+       
+    </style>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    
+</head>
+
+
+<body>
+
+
+
+
+
+  
+
+   <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+   <label for="drawer-toggle" id="drawer-toggle-label"></label>
+   <header></header>
+   
+   <nav id="drawer">
+   
+   
+       
+   
+   
+   <div class="container add" id="container">
+   
+   
+    <div class="user">
+			<img src="Img/masele2.png" alt="">
+			<div class="name">
+				<h5>Sdódó Gale Masele</h5>
+				<span>Developer</span>
+			</div>
+		</div>
+   
+   
+       
+   <div class="navbar">
+			<ul>
+				<li onClick="Dash()"><a href="#"><i class="bi bi-house-check-fill"></i><span class="home">DashBoard</span></a></li>
+				<li onclick="charts()"><a href="#"><i class="bi bi-graph-up"></i><span class="home">Charts</span></a></li>
+				<li onClick="Signals()"><a href="#"><i class="bi bi-reception-4"></i><span class="home">Signals</span></a></li>
+				<li onClick="Alerts()"><a href="#"><i class="bi bi-chat-right-text"></i><span class="home">Alerts</span></a></li>
+				<li ><a href="#"><i class="bi bi-clipboard-data-fill"></i><span class="home">Copy Trading</span></a></li>
+				<li onClick="Cashier()"><a href="#"><i class="bi bi-cash-coin"></i><span class="home">Cashier</span></a></li>
+				<li onClick="Support()"><a href="#"><i class="bi bi-person-rolodex"></i><span class="home">Support</span></a></li>
+				<li ><a href="#"><i class="bi bi-gear"></i><span class="home">Settings</span></a></li>
+			</ul>
+		</div>
+   
+   </div>
+   
+   
+   
+   
+
+
+      
+   </nav>
+   
+<!-------------------------------------------------------------------------------------------->
+      
+      
+
+
+
+
+
+<div class="MainLay" id="MainLay">
+
+
+<p class="textTitle"> Masele <br/>Crypto Markets<br/> </p>
+<p class="date" id="dateTime"> Today,24 September 2023</p>
+
+
+
+
+
+
+
+
+	<div class="main-container">
+		<div class="year-stats">
+			<div class="month-group">
+				<div class="bar h-100"></div>
+				<p class="month">Jan</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-50"></div>
+				<p class="month">Feb</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-75"></div>
+				<p class="month">Mar</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Apr</p>
+			</div>
+			<div class="month-group selected">
+				<div class="bar h-may"></div>
+				<p class="month">May</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Jun</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Jul</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Aug</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Sep</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Oct</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Nov</p>
+			</div>
+			<div class="month-group">
+				<div class="bar h-00"></div>
+				<p class="month">Dec</p>
+			</div>
+		</div>
+		
+
+
+		<div class="stats-info">
+			<div class="graph-container">
+				<div class="percent">
+					<svg viewBox="0 0 36 36" class="circular-chart">
+						<path class="circle" stroke-dasharray="100, 100" d="M18 2.0845
+      a 15.9155 15.9155 0 0 1 0 31.831
+      a 15.9155 15.9155 0 0 1 0 -31.831" />
+						<path class="circle" stroke-dasharray="85, 100" d="M18 2.0845
+      a 15.9155 15.9155 0 0 1 0 31.831
+      a 15.9155 15.9155 0 0 1 0 -31.831" />
+						<path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+      a 15.9155 15.9155 0 0 1 0 31.831
+      a 15.9155 15.9155 0 0 1 0 -31.831" />
+						<path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+      a 15.9155 15.9155 0 0 1 0 31.831
+      a 15.9155 15.9155 0 0 1 0 -31.831" />
+					</svg>
+				</div>
+				
+				<p id='number'><br/><br/>Loading...</p>
+				
+				
+			</div>
+		</div>
+	</div>
+
+
+<!----------------------------------------------------------------------------------------
+
+
+
+
+              Next Graph 
+
+
+------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+<!---
+<image class="bull" src="Img/bull.png"></image>
+---->
+
+
+ <object class="svgg" type="image/svg+xml" data="Misc/bear3.svg" aria-label="SVG Image"></object>
+
+
+
+
+
+<div class="loader">
+  <span class="l">R</span>
+  <span class="o">U</span>
+  <span class="a">N</span>
+  <span class="d">N</span>
+  <span class="i">I</span>
+  <span class="n">N</span>
+  <span class="g">G</span>
+  <span class="d1">.</span>
+  <span class="d2">.</span>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
