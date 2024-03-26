@@ -1,0 +1,56 @@
+
+body{
+    background: url(https://cdn.pixabay.com/photo/2014/12/15/13/57/sunset-569093_640.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*
+      https://cdn.pixabay.com/photo/2014/12/15/13/57/sunset-569093_640.jpg
+    */
+}
+
+
+.bar{
+   display: flex;
+}
+
+.svg2{
+    position: relative;
+    left: 80%;
+}
+
+
+.image{
+   display: center;
+   width: 60%;
+   margin-top: 20%;
+   margin-left: 20%;
+}
+
+.title{
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Righteous', cursive;
+  margin-left: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
