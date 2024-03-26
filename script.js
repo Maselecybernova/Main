@@ -52,7 +52,7 @@ function charts(){
      window.location.href=("Chart.html");
 }
 function Dash(){
-    window.location.href=("index.html");
+    window.location.href=("Main.html");
 }
 function Cashier(){
     window.location.href=("Cashier.html");
