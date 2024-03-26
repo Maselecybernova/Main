@@ -6,7 +6,7 @@ Date And Time
 
 *******************************************************************************/
 
-/*
+
 
 document.addEventListener("DOMContentLoaded", function() {
   
@@ -24,12 +24,12 @@ document.addEventListener("DOMContentLoaded", function() {
   updateDateTime();
   setInterval(updateDateTime, 1000);
 
-}); */
+}); 
 
 
 //***************************************************************************//
 
-/*
+
 function updateNumber() {
   
   
@@ -40,7 +40,7 @@ function updateNumber() {
        numberElem.textContent = "Balance: "+"00." + "00"+ " USD";
 }
 
-setInterval(updateNumber, 2000);  */
+setInterval(updateNumber, 2000);  
 
 /******************************************************************************/
 
