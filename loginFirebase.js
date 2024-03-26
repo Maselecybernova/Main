@@ -47,7 +47,7 @@ function signInFirebase(){
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then(function(user) {
 
-          window.location.href=("https://maselecybernova.github.io/Main/");
+          window.location.href=("https://maselecybernova.github.io/Main/Main.html");
             
         })
         .catch(function(error) {
