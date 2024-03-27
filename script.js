@@ -78,7 +78,9 @@ function withdraw(){
 function checkout(){
     alert("Transaction Failed! Please try Again");
 }
-
+function continue(){
+    window.location.href=("index.html");
+}
 
 
 
