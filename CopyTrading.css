@@ -1,0 +1,198 @@
+body
+{
+    background: url(https://cdn.pixabay.com/photo/2014/12/15/13/57/sunset-569093_640.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.bulll{
+   display: center;
+   width: 50%;
+   margin-top: 45%;
+   margin-left: 22%;
+}
+
+
+
+
+
+
+
+.dropdown {
+  max-width: 13em;
+  margin: 80px auto 0;
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.dropdown-btn {
+  background: #EE4266;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em 0.5em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #fff;
+  transition: transform ease-in-out 0.3s;
+}
+
+.dropdown-content {
+  list-style: none;
+  position: absolute;
+  top: 3.2em;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.dropdown-content li {
+  background: #2f3238;
+  border-radius: 0.5em;
+  position: relative;
+  left: 100%;
+  transition: 0.5s;
+  transition-delay: calc(60ms * var(--delay));
+}
+
+.dropdown-btn:focus + .dropdown-content li {
+  left: 0;
+}
+
+.dropdown-btn:focus + .dropdown-content {
+  visibility: visible;
+}
+
+.dropdown-btn:focus > .arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-content li:hover {
+  background: #1d1f24;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 0.7em 0.5em;
+  color: #fff;
+  margin: 0.1em 0;
+  text-decoration: none;
+}
+
+/* base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+/*   background: #cecece; */
+}
+
+
+
+
+/******************************************************************************/
+
+
+
+
+.input {
+  width: 100%;
+  max-width: 80%;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid #EE4266;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+  margin-left: 10%;
+  
+}
+
+#cp1{
+    margin-top: 5%;
+}
+#cp2{
+    margin-top: 5%;
+}
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}
+
+/******************************************************************************/
+
+
+
+
+.custom-btn {
+ width: 60%;
+ height: 40px;
+ color: #fff;
+ border-radius: 20px;
+ font-family: 'Lato', sans-serif;
+ font-weight: 500;
+ background: lightcoral;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ position: relative;
+ display: inline-block;
+ box-shadow: inset 2px 2px 2px 0px lightcoral,
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ outline: none;
+ margin-left: 20%;
+ margin-top: 5%;
+}
+
+.btn-1 {
+ background: lightcoral;
+ background: lightcoral;
+ border: none;
+}
+
+.btn-1:before {
+ height: 0%;
+ width: 2px;
+}
+
+.btn-1:hover {
+ box-shadow: lightcoral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
