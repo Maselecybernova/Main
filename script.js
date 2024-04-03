@@ -40,7 +40,7 @@ function updateNumber() {
 
           var numberElem = document.getElementById("number");
 
-          numberElem.innerHTML = "Balance: " + "<span style='color: #00ee00; font-size: 17px;'> $285." + randomNum + "</span> USD";
+          numberElem.innerHTML = "Balance: " + "<span style='color: #E36414; font-size: 17px;'> $285." + randomNum + "</span> USD";
      }
 }
 
