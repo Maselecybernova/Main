@@ -44,7 +44,7 @@ function updateNumber() {
      }
 
 
-if (email=="gnkisa31@gmail.com"){
+if (email=="kgakololosupang54@gmail.com"){
   
           var randomNum = Math.floor(Math.random() * (80 - 50 + 1) + 50);
 
