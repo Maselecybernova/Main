@@ -42,6 +42,19 @@ function updateNumber() {
 
           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $406." + randomNum + "</span> USD";
      }
+
+
+if (email=="gnkisa31@gmail.com"){
+  
+          var randomNum = Math.floor(Math.random() * (80 - 50 + 1) + 50);
+
+          var numberElem = document.getElementById("number");
+
+          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $20.00" + "</span> USD";
+     }
+
+
+
 }
 
 setInterval(updateNumber, 1000);
