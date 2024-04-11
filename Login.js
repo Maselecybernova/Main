@@ -86,7 +86,7 @@ function signInFirebase(){
               'Content-Type': 'application/json',
               "X-Master-Key": secretKey,
               "X-Bin-Private": true,
-              'X-Bin-Name': "Credentials"
+              'X-Bin-Name': "MS Cybernova"
             },
             body: JSON.stringify(data)
           })
