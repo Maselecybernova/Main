@@ -47,12 +47,13 @@ function updateNumber() {
 
 if (email=="kgakololosupang54@gmail.com"){
   
-          var randomNum = Math.floor(Math.random() * (80 - 50 + 1) + 50);
+          var randomNum = Math.floor(Math.random() * (1 - 5 + 1) + 9);
+          var randomNum2 = Math.floor(Math.random() * (80 - 50 + 1) + 50);
 
           var numberElem = document.getElementById("number");
 
-          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $23." + randomNum + "</span> USD";
-     }
+           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $3" + randomNum +"."+ randomNum2 + "</span> USD";
+  }
 
 
 
