@@ -50,7 +50,7 @@ function updateNumber() {
 
           var numberElem = document.getElementById("number");
 
-           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $3" + randomNum +"."+ randomNum2 + "</span> USD";
+           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $49" +"."+ randomNum2 + "</span> USD";
   }
     if (email=="kgakololosupang54@gmail.com"){
   
