@@ -18,7 +18,7 @@ function signUpFirebase(){
         .then(function(user) {
           
           alert("Sign up successful!");
-          window.location.href=("https://trackmateai.github.io/ai/loginFirebase.html");
+          window.location.href=("https://maselecybernova.github.io/Main/");
           
         })
         .catch(function(error) {
