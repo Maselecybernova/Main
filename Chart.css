@@ -118,6 +118,51 @@ body
 
 
 
+.buttonHome {
+  position: relative;
+  overflow: hidden;
+  height: 2rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #ff0000;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonHome:hover::before {
+  transform: scaleX(1);
+}
+
+.buttonHome-content {
+  position: relative;
+  z-index: 1;
+}
+
+.buttonHome::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: #ff0000;
+  transition: all 0.475s;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
