@@ -70,8 +70,8 @@ if (email=="oliverntlhoiwa@gmail.com"){
 
           var numberElem = document.getElementById("number");
 
-            numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $35.00</span> USD";
-  
+           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $21." + randomNum2 + "</span> USD";
+ 
   }
 if (email=="kgopisochestahmafuta@gmail.com"){
   
