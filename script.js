@@ -31,7 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function updateNumber() {
   
-        
+        var numberElem = document.getElementById("number");
+        numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $00.00</span> USD";
+  
       var email = document.getElementById("username").value;
       
       if (email=="gmasele15@gmail.com"){
