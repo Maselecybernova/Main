@@ -43,7 +43,7 @@ function updateNumber() {
 
           var numberElem = document.getElementById("number");
 
-          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $6" + randomNum +"."+ randomNum2 + "</span> USD";
+          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $7" + randomNum +"."+ randomNum2 + "</span> USD";
      }
       if (email=="gnkisa31@gmail.com"){
   
