@@ -53,7 +53,8 @@ function updateNumber() {
           var numberElem = document.getElementById("number");
 
            numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $49" +"."+ randomNum2 + "</span> USD";
-  }
+  
+      }
     if (email=="kgakololosupang54@gmail.com"){
   
           var randomNum = Math.floor(Math.random() * (1 - 5 + 1) + 9);
@@ -80,7 +81,7 @@ if (email=="kgopisochestahmafuta@gmail.com"){
 
           var numberElem = document.getElementById("number");
 
-            numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $20.00</span> USD";
+          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $22" +"."+ randomNum2 + "</span> USD";
   
   }
   
