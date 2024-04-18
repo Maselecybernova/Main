@@ -81,7 +81,7 @@ if (email=="kgopisochestahmafuta@gmail.com"){
 
           var numberElem = document.getElementById("number");
 
-          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $22" +"."+ randomNum2 + "</span> USD";
+          numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $25" +"."+ randomNum2 + "</span> USD";
   
   }
   
