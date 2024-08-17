@@ -56,7 +56,7 @@ function updateNumber() {
            numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $49" +"."+ randomNum2 + "</span> USD";
   
       }
-    if (email=="kgakololosupang54@gmail.com"){
+    if (email=="kgapang54@gmail.com"){
   
           var randomNum = Math.floor(Math.random() * (1 - 5 + 1) + 9);
           var randomNum2 = Math.floor(Math.random() * (80 - 50 + 1) + 50);
@@ -66,7 +66,7 @@ function updateNumber() {
           numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $49." + randomNum2 + "</span> USD";
   
     }
-if (email=="oliverntlhoiwa@gmail.com"){
+if (email=="oil.com"){
   
           var randomNum = Math.floor(Math.random() * (1 - 5 + 1) + 9);
           var randomNum2 = Math.floor(Math.random() * (80 - 50 + 1) + 50);
@@ -76,7 +76,7 @@ if (email=="oliverntlhoiwa@gmail.com"){
            numberElem.innerHTML = "Balance: " + "<span style='color: #ffffff; font-weight: bold; font-size: 17px;'> $22.69</span> USD";
   
   }
-if (email=="kgopisochestahmafuta@gmail.com"){
+if (email=="kgopia@gmail.com"){
   
           var randomNum = Math.floor(Math.random() * (1 - 5 + 1) + 9);
           var randomNum2 = Math.floor(Math.random() * (80 - 50 + 1) + 50);
